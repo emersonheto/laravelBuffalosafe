@@ -5,7 +5,7 @@
 // Si no se ha llegado ha definir el array global $_FILES, cancelaremos el resto del proceso
 if (empty($_FILES['file-es'])) {
 	// Devolvemos un array asociativo con la clave error en formato JSON como respuesta	
-    echo json_encode(['error'=>'No hay ficheros para realizar upload error mensaje.']); 
+    echo json_encode(['error'=>'No hay ficheros para realizar upload error mensaje. error 3 mensaje comit 3 ']); 
 	// Cancelamos el resto del script
    return; 
 }
